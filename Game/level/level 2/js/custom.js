@@ -1,6 +1,6 @@
 "use strict"
 
-var time = 60;
+var time = 50;
 var score = 0;
 var bg_color;
 var tx_color;
