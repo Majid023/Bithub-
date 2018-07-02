@@ -1,0 +1,50 @@
+.image--container {
+  background: url("../images/top-wallpaper.jpg");
+  background-size: 100% 490px;
+  width: 100%;
+  height: 490px;
+}
+.score--bar {
+  background-color: red;
+}
+.score--bar .time--bar {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 4px 4px 25px black,1px 2px white;
+}
+.game--title {
+  margin-top: 100px;
+  margin-left: 400px !important;
+  position: absolute;
+}
+.game--title #title--color {
+  color: gray;
+  text-shadow: 2px 2px #000000, -2px -2px #000000;
+  font-weight: bold !important;
+}
+.button--container {
+  margin-top: 300px;
+  margin-left: 300px;
+  background-color: red !important;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  text-align: center;
+  padding-top: 15px;
+}
+.button--container .button {
+  text-decoration: none;
+}
+.button--container .button #play--button {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.button--container:hover {
+  cursor: pointer;
+  border: 2px solid gold;
+  box-shadow: 1px 1px 0px 0px #02f022, -1px -1px 0px 0px #02f022;
+}
+.box--shadow {
+  box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.5);
+}
