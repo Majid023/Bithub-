@@ -1,6 +1,6 @@
 "use strict"
 
-var time = 50;
+var time = 90;
 var score = 0;
 var bg_color;
 var tx_color;
@@ -17,7 +17,8 @@ function timer(){
     
     if(time===1){
         clearInterval(timerStop);
-        window.open("..//..//level 3//EndGame.html","_self");
+        localStorage.setItem("score",score);
+        window.open("../level 3/EndGame.html","_self");
     }
     if(time===11)
     {
