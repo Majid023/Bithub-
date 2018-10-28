@@ -52,26 +52,26 @@ function faceScheduler(){
     var choose = (Math.floor(Math.random()*4)+1);
     var face="";
     if(choose === 1){
-        face = "A";
+        face = "images/majid.jpg";
         bg_color="red";
         tx_color = "black";
     }
     if(choose === 2){
-        face = "B";
+        face = "images/babu.jpg";
         bg_color="green";
         tx_color = "lightgreen";
     }
     if(choose === 3){
-        face = "C";
+        face = "images/sujeet.jpg";
         bg_color="blue";
         tx_color = "gray";
     }
     if(choose === 4){
-        face = "D";
+        face = "images/zulfkar.jpg";
         bg_color = "purple";
         tx_color = "white";
-    }
-    document.getElementById("face").innerHTML = face ;
+    } 
+    document.getElementById("face").src = face ;
 }
 
 
